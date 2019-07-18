@@ -17,10 +17,3 @@ insert_final_newline = true
 
 trim_trailing_whitespace = false
 
-{
-  "trailingComma": "es5",
-  "tabWidth": 4,
-  "semi": false,
-  "singleQuote": true,
-  "printWidth": 100
-}
