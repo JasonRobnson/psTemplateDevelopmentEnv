@@ -13,10 +13,13 @@ export default {
 	},
 	plugins: [],
 	module: {
-		rules: [{ test: /\.js$/, exclude: [/node_modules/], loader: 'babel-loader' }],
+		rules: [
+			{ test: /\.js$/, exclude: [/node_modules/], loader: 'babel-loader' },
+			{ test: /\.css$/ },
+		],
 		// loaders: [
 
-		// 	{ test: /\.csss$/, loader: ['style', 'css'] },
+		// 	{ test: /\.css$/, loader: ['style-loader', 'css-loader'] },
 		// ],
 	},
 };
