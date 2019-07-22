@@ -1,0 +1,21 @@
+{
+	"root": true,
+	"extends": ["eslint:recommended", "plugin:import/errors", "plugin:import/warnings"],
+	"parserOptions": {
+		"ecmaVersion": 7,
+		"sourceType": "module"
+	},
+
+	//can change environments from eslint env list
+	"env": {
+		"browser": true,
+		"node": true,
+		"mocha": true
+	},
+
+	// 1 = warnring 2= error, 0 = off
+	"rules": {
+		"no-console": 1,
+		"no-debugger": 0
+	}
+}
