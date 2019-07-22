@@ -1,2 +1,4 @@
 language: node_js
+
+// Future notes do not initiallize as node version as a string.. use number =>
 node_js: 10
